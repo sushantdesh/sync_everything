@@ -1,6 +1,6 @@
 function h (){
-    // var dbx = new Dropbox({accessToken: 'GV8PeXTDYDMAAAAAAAAAAapdyhLck47XxuogasiDaX7Kw5ShbTDofUTtlIkDZlUX'});
-    var dbx = new Dropbox.Dropbox({accessToken: 'GV8PeXTDYDMAAAAAAAAAAapdyhLck47XxuogasiDaX7Kw5ShbTDofUTtlIkDZlUX'});
+//     // var dbx = new Dropbox({accessToken: });
+//     var dbx = new Dropbox.Dropbox({accessToken:});
     var data = ''
     dbx.usersGetCurrentAccount()
         .then(function (response) {
